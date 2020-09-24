@@ -36,7 +36,7 @@ spec:
         prometheus.io/scrape: 'true'
     spec:
       containers:
-      - image: ppandit/fortune-demo:latest
+      - image: harbor.mgmt.tanzu.zwickey.net/library/fortune-demo:latest
         name: fortune-app
         ports:
         - containerPort: 8080
